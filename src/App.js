@@ -4,6 +4,7 @@ import { AboutPage } from './components/aboutPage';
 import { WorkPage } from './components/workPage';
 import { ContactPage } from './components/contactPage';
 import { SocialMediaBar } from './components/socialMediaBar';
+import { Email } from './components/email';
 import { BrowserRouter, Route, Routes, NavLink } from "react-router-dom";
 
 function App() {
@@ -24,14 +25,15 @@ function App() {
             </li>
             <li>
               <NavLink to="/contact">Contact</NavLink>
-            </li>
+            </li> 
             <li>
-              <NavLink to="/resume">Resume</NavLink>
+              <button className="resumeButton" to="/resume">Resume</button>
             </li>
           </ul>
         </nav>
        <nav>
         <SocialMediaBar />
+        <Email />
        </nav>
 
     

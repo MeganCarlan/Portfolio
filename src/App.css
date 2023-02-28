@@ -4,11 +4,33 @@
 
 .navbar {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 5vh;
+  right: 8vh;
   font-family: 'Inconsolata', monospace;
   color: #64ffda
   
+}
+
+.resumeButton {
+  max-width: 11vh;
+  max-height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #64ffda;
+  background-color: transparent;
+  color: #64ffda;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.email {
+  position: fixed;
+  padding: 29px 5px;
+  left: 5vh;
+  top: 1vh;
+  transform: rotate(90deg);
+  transform-origin: bottom left;
 }
 
 .social-container {
@@ -19,6 +41,7 @@
   transform: rotate(90deg);
   transform-origin: bottom left;
 }
+
 .social {
   padding:15px;
 }
@@ -131,12 +154,17 @@ a {
   align-items: left;
   justify-content: left;
   min-height: 100vh;
-  padding: 15rem;
+  padding: 15rem 20rem;
   text-align: left;
   background-color: #0a192f;
 }
 button {
   max-width: 20vh;
+  border: 2px solid #64ffda;
+  background-color: transparent;
+  color: #64ffda;
+  padding: 10px 20px;
+  border-radius: 5px;
 }
 
 h1 {
@@ -154,7 +182,7 @@ div {
   margin-bottom: 1.5rem;
 }
 
-button {
+/* button {
   background-color: #64ffda;
   color: black;
   border: none;
@@ -162,7 +190,7 @@ button {
   font-size: 1.2rem;
   border-radius: 5px;
   cursor: pointer;
-}
+} */
 
 button:hover {
   background-color: #0055aa;

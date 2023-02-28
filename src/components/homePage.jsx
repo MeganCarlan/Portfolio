@@ -1,7 +1,12 @@
-
+import { useState, useEffect } from 'react';
 
 export function HomePage() {
-    return (
+    
+  
+  
+  
+  
+  return (
       <div className="HomePage">
         <div className="green">Hi, my name is</div>
         <h1 className="lightestSlate">Megan Carlan</h1>
