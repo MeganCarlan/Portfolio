@@ -1,0 +1,181 @@
+.App {
+  text-align: left;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-family: 'Inconsolata', monospace;
+  color: #64ffda
+  
+}
+
+.social-container {
+  position: fixed;
+  padding: 25px;
+  left: 5vh;
+  bottom: 35vh;
+  transform: rotate(90deg);
+  transform-origin: bottom left;
+}
+.social {
+  padding:15px;
+}
+
+a.github {
+  color: #64ffda;
+
+}
+
+a.facebook {
+  color: #64ffda;
+}
+
+a.linkedin {
+  color: #64ffda;
+}
+
+a.instagram {
+  color: #64ffda;
+}
+
+
+nav {
+  color:#64ffda;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li a {
+  display: block;
+  color: #64ffda;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Set the default font family */
+h1, div {
+  font-family: 'Inconsolata', monospace;
+  
+}
+
+Set the heading font family and size
+ h2 {
+  font-family: 'Fira Sans', sans-serif;
+  /* font-size: 2rem; */
+}
+
+/* Set the font family and size for paragraph text */
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3rem;
+  max-width: 100vh;
+}
+
+/* Set the font family and size for code snippets */
+code, pre {
+  font-family: 'Courier New', monospace;
+  font-size: 1.2rem;
+}
+
+/* Set the font family and size for links */
+a {
+  font-family: 'Fira Code', monospace;
+  font-size: 1.2rem;
+}
+
+
+ 
+.HomePage {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  min-height: 100vh;
+  padding: 15rem;
+  text-align: left;
+  background-color: #0a192f;
+}
+button {
+  max-width: 20vh;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+div {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+button {
+  background-color: #64ffda;
+  color: black;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0055aa;
+}
+
+.green {
+  color: #64ffda
+}
+
+.lightSlate {
+  color: #a8b2d1;
+}
+
+.lightestSlate {
+  color: #ccd6f6;
+}
