@@ -2,8 +2,15 @@
   text-align: left;
 }
 
-.navbar {
+.gif {
   position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+
+.navbar {
+  position: fixed;
   top: 5vh;
   right: 8vh;
   font-family: 'Inconsolata', monospace;
@@ -158,6 +165,15 @@ a {
   text-align: left;
   background-color: #0a192f;
 }
+
+.homePagePhoto {
+  
+  padding: 20px 0;
+  bottom: 0  ;
+  right: 0;
+  max-width: 100vh;
+}
+
 button {
   max-width: 20vh;
   border: 2px solid #64ffda;
