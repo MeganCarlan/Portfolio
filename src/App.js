@@ -5,35 +5,21 @@ import { WorkPage } from './components/workPage';
 import { ContactPage } from './components/contactPage';
 import { SocialMediaBar } from './components/socialMediaBar';
 import { Email } from './components/email';
-import { BrowserRouter, Route, Routes, NavLink } from "react-router-dom";
+import { Footer } from './components/footer';
+import { NavBar } from './components/navBar';
+import { BrowserRouter, Route, Routes} from "react-router-dom";
 
 function App() {
   return (
 
 
 <BrowserRouter>
-        <nav className="navbar">
-          <ul>
-            <li>
-              <NavLink to="/">Home</NavLink>
-            </li>
-            <li>
-              <NavLink to="/about">About</NavLink>
-            </li>
-            <li>
-              <NavLink to="/work">Work</NavLink>
-            </li>
-            <li>
-              <NavLink to="/contact">Contact</NavLink>
-            </li> 
-            <li>
-              <button className="resumeButton" to="/resume">Resume</button>
-            </li>
-          </ul>
-        </nav>
+        
        <nav>
+        <NavBar />
         <SocialMediaBar />
         <Email />
+        <Footer />
        </nav>
 
     

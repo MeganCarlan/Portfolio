@@ -83,10 +83,29 @@ a.instagram {
   color: #64ffda;
 }
 
+
+/* Footer  */
+.footer {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  height: 40px; /* set the height of your footer */
+  position:absolute;
+  color: #64ffda;
+}
+
+
+
+
 /* general formatting */
 body {
   font-family: 'Inconsolata', monospace;
-  
+  margin: auto;
+  background-color: #0a192f;
 }
 
 .nameIs {
@@ -130,14 +149,21 @@ button:hover {
  /* Home Page  */
 .HomePage {
   display: flex;
-  flex-direction: column;
-  align-items: left;
-  justify-content: left;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20vh;
   min-height: 100vh;
-  padding: 10rem 15rem;
+  width: 100%;
   text-align: left;
   background-color: #0a192f;
 }
+
+.contentContainer {
+  margin-top:2vh;
+  margin-left: 0;
+}
+
 
 
 
@@ -152,13 +178,10 @@ button:hover {
 }
 
 .homePagePhoto {
-  
-  position: absolute;
-  padding: 29p0px;
-  right:10vh;
-  top: 34vh;
-  max-width: 66vh;
-  max-height: 50svh;
+  margin-left: 10vh;
+  margin-top: 10vh;
+  max-width: 60vh;
+  max-height: 40vh;
   border: 5px solid #64ffda;
   border-radius: 20px;
 }
@@ -167,11 +190,12 @@ button:hover {
 
 .AboutPage {
   display: flex;
-  flex-direction: column;
-  align-items: left;
-  justify-content: left;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20vh;
+  margin-left: 15vh;
   min-height: 100vh;
-  padding:8rem 15rem;
   text-align: left;
   background-color: #0a192f;
 }
@@ -186,24 +210,31 @@ button:hover {
 }
 
 .headshot {
-  position: absolute;
-  right:20vh;
-  top: 25vh;
-  max-width: 50vh;
-  max-height: 50svh;
+  margin-left: 10vh;
+  margin-top: 10vh;
+  max-width: 45vh;
+  max-height: 45vh;
   border: 5px solid #64ffda;
   border-radius: 20px;
 }
+
+.ulContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+}
+
+
 
 /* Work Page */
 
 .workPage {
   display: flex;
-  flex-direction: column;
-  align-items: left;
-  justify-content: left;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   min-height: 100vh;
-  padding: 10rem 15rem;
   text-align: left;
   background-color: #0a192f;
 }
@@ -216,14 +247,16 @@ button:hover {
 
 .contactPage {
   display: flex;
-  flex-direction: column;
-  align-items: left;
-  justify-content: left;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   min-height: 100vh;
-  padding: 12rem 15rem;
+  margin-right: 0vh;
+  margin-left: 0vh;
   text-align: left;
   background-color: #0a192f;
 }
+
 
 .contactPage button {
   max-width: 20vh;
@@ -237,11 +270,11 @@ button:hover {
 }
 
 .contactPhoto {
-  position: absolute;
-  right:25vh;
-  top: 22vh;
-  max-width: 50vh;
-  max-height: 50svh;
+  margin-left: 15vh;
+  margin-top: 10vh;
+  max-width: 45vh;
+  max-height: 45vh;
+ 
  
 }
 

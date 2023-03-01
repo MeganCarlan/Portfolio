@@ -3,6 +3,7 @@
 export function AboutPage() {
     return (
      <div className="AboutPage">
+       <div className ="contentContainer">
         <h1 className="green">About Me</h1>
         <p className="lightestSlate">
             Hello! My name is Brittany and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!
@@ -13,14 +14,19 @@ export function AboutPage() {
         <p className="green">
             Here are a few technologies I have been working with recently:
         </p>
+        <div className="ulContainer">
         <ul className="lightestSlate">
             <li> JavaScript (ES6+)</li>
             <li>React</li>
             <li>Node.js</li>
+        </ul>
+        <ul className="lightestSlate">
             <li>Type Script</li>
             <li>MYSQL</li>
             <li>WordPress</li>
         </ul>
+        </div>
+        </div>
         <img className="headshot" src={require("/Users/mcarlan/Desktop/repos/portfolio/src/assets/headshot.png")} alt="My Image" />
 
     </div>
