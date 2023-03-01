@@ -1,14 +1,4 @@
-.App {
-  text-align: left;
-}
-
-.gif {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
-
-
+/* NavBar Formatting */
 .navbar {
   position: fixed;
   top: 5vh;
@@ -16,6 +6,26 @@
   font-family: 'Inconsolata', monospace;
   color: #64ffda
   
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li a {
+  display: block;
+  color: #64ffda;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .resumeButton {
@@ -31,6 +41,7 @@
   border-radius: 5px;
 }
 
+/* email addresss bar */
 .email {
   position: fixed;
   padding: 29px 5px;
@@ -38,8 +49,10 @@
   top: 1vh;
   transform: rotate(90deg);
   transform-origin: bottom left;
+  color:#64ffda;
 }
 
+/* social media links */
 .social-container {
   position: fixed;
   padding: 25px;
@@ -70,143 +83,31 @@ a.instagram {
   color: #64ffda;
 }
 
-
-nav {
-  color:#64ffda;
-}
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  display: flex;
-}
-
-nav li {
-  display: inline-block;
-}
-
-nav li a {
-  display: block;
-  color: #64ffda;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-
-
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-/* Set the default font family */
-h1, div {
+/* general formatting */
+body {
   font-family: 'Inconsolata', monospace;
   
 }
 
-Set the heading font family and size
- h2 {
-  font-family: 'Fira Sans', sans-serif;
-  /* font-size: 2rem; */
-}
-
-/* Set the font family and size for paragraph text */
-p {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.3rem;
-  max-width: 100vh;
-}
-
-/* Set the font family and size for code snippets */
-code, pre {
-  font-family: 'Courier New', monospace;
-  font-size: 1.2rem;
-}
-
-/* Set the font family and size for links */
-a {
-  font-family: 'Fira Code', monospace;
-  font-size: 1.2rem;
-}
-
-
- 
-.HomePage {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  justify-content: left;
-  min-height: 100vh;
-  padding: 15rem 20rem;
-  text-align: left;
-  background-color: #0a192f;
-}
-
-.homePagePhoto {
-  
-  padding: 20px 0;
-  bottom: 0  ;
-  right: 0;
-  max-width: 100vh;
-}
-
-button {
-  max-width: 20vh;
-  border: 2px solid #64ffda;
-  background-color: transparent;
-  color: #64ffda;
-  padding: 10px 20px;
-  border-radius: 5px;
+.nameIs {
+  font-size:1.4rem;
+  margin-bottom: 0.5rem;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size:4rem;
   margin-bottom: 0.5rem;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size:1.5rem;
   margin-bottom: 1.5rem;
 }
 
-div {
+p {
   font-size: 1.2rem;
-  margin-bottom: 1.5rem;
+  max-width: 65vh;
 }
-
-/* button {
-  background-color: #64ffda;
-  color: black;
-  border: none;
-  padding: 1rem 2rem;
-  font-size: 1.2rem;
-  border-radius: 5px;
-  cursor: pointer;
-} */
 
 button:hover {
   background-color: #0055aa;
@@ -223,3 +124,75 @@ button:hover {
 .lightestSlate {
   color: #ccd6f6;
 }
+
+
+ /* Home Page  */
+.HomePage {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  min-height: 100vh;
+  padding: 15rem 15rem;
+  text-align: left;
+  background-color: #0a192f;
+}
+
+
+
+.portfolioButton {
+  max-width: 20vh;
+  border: 2px solid #64ffda;
+  background-color: transparent;
+  color: #64ffda;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.homePagePhoto {
+  
+  position: absolute;
+  padding: 29px 5px;
+  right:10vh;
+  top: 35vh;
+  max-width: 66vh;
+  max-height: 50svh
+}
+
+/* About Page */
+
+.AboutPage {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  min-height: 100vh;
+  padding: 15rem 15rem;
+  text-align: left;
+  background-color: #0a192f;
+}
+
+.AboutPage p {
+  font-size: 1.2rem;
+  max-width: 75vh;
+}
+
+.AboutPage h1 {
+  font-size: 2.5rem;
+}
+
+.headshot {
+  position: absolute;
+  padding: 29px 5px;
+  right:20vh;
+  top: 35vh;
+  max-width: 50vh;
+  max-height: 50svh
+}
+
+
+
+
+
+
+
