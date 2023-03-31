@@ -6,7 +6,7 @@ export function AboutPage() {
        <div className ="contentContainer">
         <h1 className="green">About Me</h1>
         <p className="lightestSlate">
-        Hello world! My name is Megan Carlan. I am a full stack web developer who is passionate about building websites that are beautiful, functional, and user-friendly. I have a strong foundation in programming languages such as HTML, CSS, and JavaScript, as well as experience with popular frameworks and libraries such as React and Node.js.
+        Hello world! My name is Megan Carlan. I am a full stack web developer who is passionate about building websites that are beautiful, functional, and user-friendly. I have a strong foundation in HTML, CSS, and JavaScript, as well as experience with popular frameworks and libraries such as React and Node.js.
         </p>
         <p className="lightestSlate">
         With an eye for design and a love of problem-solving, I enjoy working with clients to create custom websites that meet their unique needs and reflect their brand identity. From front-end development to back-end coding and database management, I am dedicated to delivering high-quality web solutions that are tailored to each client's specifications.
@@ -27,7 +27,7 @@ export function AboutPage() {
             <li>Node.js</li>
         </ul>
         <ul className="lightestSlate">
-            <li>Type Script</li>
+            <li>TypeScript</li>
             <li>MYSQL</li>
             <li>React</li>
             <li>WordPress</li>
