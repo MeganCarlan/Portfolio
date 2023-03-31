@@ -6,10 +6,15 @@ export function AboutPage() {
        <div className ="contentContainer">
         <h1 className="green">About Me</h1>
         <p className="lightestSlate">
-            Hello! My name is Brittany and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!
+        Hello world! My name is Megan Carlan. I am a full stack web developer who is passionate about building websites that are beautiful, functional, and user-friendly. I have a strong foundation in programming languages such as HTML, CSS, and JavaScript, as well as experience with popular frameworks and libraries such as React and Node.js.
         </p>
         <p className="lightestSlate">
-            Fast-forward to today, and I have had the privilege of working at an advertising agency, a start-up, a huge corporation, and a student-led design studio. My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.
+        With an eye for design and a love of problem-solving, I enjoy working with clients to create custom websites that meet their unique needs and reflect their brand identity. From front-end development to back-end coding and database management, I am dedicated to delivering high-quality web solutions that are tailored to each client's specifications.
+        </p>
+        <p className="lightestSlate">
+       <p className="lightestSlate">
+       In addition to web development, I am committed to staying up-to-date with the latest industry trends and technologies. This includes participating in online courses and workshops, attending web development conferences, and contributing to open source projects.
+        </p>
         </p>
         <p className="green">
             Here are a few technologies I have been working with recently:
@@ -17,17 +22,20 @@ export function AboutPage() {
         <div className="ulContainer">
         <ul className="lightestSlate">
             <li> JavaScript (ES6+)</li>
-            <li>React</li>
+            <li>HTML</li>
+            <li>CSS</li>
             <li>Node.js</li>
         </ul>
         <ul className="lightestSlate">
             <li>Type Script</li>
             <li>MYSQL</li>
+            <li>React</li>
             <li>WordPress</li>
+            
         </ul>
         </div>
         </div>
-        <img className="headshot" src={require("/Users/mcarlan/Desktop/repos/portfolio/src/assets/headshot.png")} alt="My Image" />
+        <img className="headshot" src={require("/Users/adamshield/Portfolio/src/assets/headshot.png")} alt="My Image" />
 
     </div>
     )

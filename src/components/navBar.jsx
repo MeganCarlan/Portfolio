@@ -11,10 +11,7 @@ export function NavBar() {
         <nav className="navbar">
           <ul>
             <li>
-              <NavLink to="/">Home</NavLink>
-            </li>
-            <li>
-              <NavLink to="/about">About</NavLink>
+              <NavLink to="/">About</NavLink>
             </li>
             <li>
               <NavLink to="/work">Work</NavLink>

@@ -1,5 +1,4 @@
 import './App.css';
-import { HomePage } from './components/homePage';
 import { AboutPage } from './components/aboutPage';
 import { WorkPage } from './components/workPage';
 import { ContactPage } from './components/contactPage';
@@ -24,8 +23,7 @@ function App() {
 
     
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/about" element={<AboutPage />} />
+        <Route path="/" element={<AboutPage />} />
         <Route path="/work" element={<WorkPage />} />
         <Route path="/contact" element={<ContactPage />} />
         {/* <Route path="/resume" element={< />} /> */}
