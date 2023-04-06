@@ -35,7 +35,7 @@ export function AboutPage() {
         </ul>
         </div>
         </div>
-        <img className="headshot" src={require("/Users/adamshield/Portfolio/src/assets/headshot.png")} alt="My Image" />
+        <img className="headshot" src={require("/Users/mcarlan/Desktop/repos/portfolio/src/assets/headshot.png")} alt="My Image" />
 
     </div>
     )
