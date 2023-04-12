@@ -6,13 +6,13 @@ import { SocialMediaBar } from './components/socialMediaBar';
 import { Email } from './components/email';
 import { Footer } from './components/footer';
 import { NavBar } from './components/navBar';
-import { BrowserRouter, Route, Routes} from "react-router-dom";
+import { HashRouter, Route, Routes} from "react-router-dom";
 
 function App() {
   return (
 
 
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter basename={process.env.PUBLIC_URL}>
         
        <nav>
         <NavBar />
@@ -28,7 +28,7 @@ function App() {
         <Route path="/contact" element={<ContactPage />} />
         {/* <Route path="/resume" element={< />} /> */}
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
     
   );
 }
