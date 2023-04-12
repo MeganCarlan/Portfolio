@@ -17,7 +17,7 @@ export function HomePage() {
         <p className="lightSlate">I am a beginner, full-stack web developer focusing on blah blah blah I will write this later and make it more filled out but for now I am blah blah blahing. The website you are on now is the first addition to my web developer portfolio. Please click the button below if you'd like to see more! </p>
         <button onClick={handlePortfolioButtonClick} className="portfolioButton">Portfolio</button>
       </div>
-      <img className="homePagePhoto" src={require("/Users/adamshield/Portfolio/src/assets/homepagephoto.png")} alt="My Image" />
+      <img className="homePagePhoto" src={require("../assets/homepagephoto.png")} alt="My Image" />
     </div>
   );
 }
