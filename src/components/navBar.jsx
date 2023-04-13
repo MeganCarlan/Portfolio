@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 export function NavBar() {
 
     function handleClick() {
-        window.open("/path/to/pdf/file.pdf", "_blank");
+      window.open("/Resume.pdf", "_blank");
       };
     
 
@@ -20,7 +20,7 @@ export function NavBar() {
               <NavLink to="/contact">Contact</NavLink>
             </li> 
             <li>
-              <button onClick={handleClick} className="resumeButton" to="/resume">Resume</button>
+            <button onClick={handleClick} className="resumeButton">Resume</button>
             </li>
           </ul>
         </nav>

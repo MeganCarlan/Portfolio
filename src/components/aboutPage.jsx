@@ -12,7 +12,7 @@ export function AboutPage() {
         With an eye for design and a love of problem-solving, I enjoy working with clients to create custom websites that meet their unique needs and reflect their brand identity. From front-end development to back-end coding and database management, I am dedicated to delivering high-quality web solutions that are tailored to each client's specifications.
         </p>
         <p className="lightestSlate">
-       <p className="lightestSlate">
+        <p className="lightestSlate">
        In addition to web development, I am committed to staying up-to-date with the latest industry trends and technologies. This includes participating in online courses and workshops, attending web development conferences, and contributing to open source projects.
         </p>
         </p>
@@ -21,7 +21,7 @@ export function AboutPage() {
         </p>
         <div className="ulContainer">
         <ul className="lightestSlate">
-            <li> JavaScript (ES6+)</li>
+            <li>JavaScript (ES6+)</li>
             <li>HTML</li>
             <li>CSS</li>
             <li>Node.js</li>
